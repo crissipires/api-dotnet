@@ -1,4 +1,5 @@
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
+# See https://aka.ms/customizecontainer to learn how to customize your debug container
+# and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 USER app
@@ -9,15 +10,18 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["heroku.api\heroku.api.csproj", "heroku.api/"]
-RUN dotnet restore "./heroku.api\heroku.api.csproj"
-COPY . .
 
-RUN dotnet build "heroku.api\heroku.api.csproj" -c $BUILD_CONFIGURATION -o /app/build
+# Copia apenas o csproj e restaura dependências
+COPY ["heroku.api/heroku.api.csproj", "heroku.api/"]
+RUN dotnet restore "./heroku.api/heroku.api.csproj"
+
+# Copia o restante do código e faz o build
+COPY . .
+RUN dotnet build "heroku.api/heroku.api.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "heroku.api\heroku.api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "heroku.api/heroku.api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
