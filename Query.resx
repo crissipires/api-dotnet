@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+    <data name="filtro" xml:space="preserve">
+      <value>
+        {
+          "unidade_prisional": [
+            {
+              "id": 1,
+              "descricao": "PENITENCIÁRIA DE PEDRINHAS - SÃO LUÍS"
+            },
+            {
+              "id": 2,
+              "descricao": "PENITENCIÁRIA DE PEDRINHAS 2 - SÃO LUÍS"
+            },
+            {
+              "id": 3,
+              "descricao": "PENITENCIÁRIA DE PEDRINHAS 3 - SÃO LUÍS"
+            }
+          ],
+          "defensor": [
+            {
+              "id": 1,
+              "descricao": "Dr. João da Silva"
+            },
+            {
+              "id": 2,
+              "descricao": "Dr. João Carlos"
+            },
+            {
+              "id": 3,
+              "descricao": "Dra. Marieta da Silva"
+            }
+          ]
+        }
+      </value>
+    </data>
+
+    <data name="consulta" xml:space="preserve">
+        <value>{
+            "detalhes": [
+              {
+                "codigo_forca_tarefa": 27,
+                "cdpessoa": 2525,
+                "unidade_prisional": "PENITENCIÁRIA DE PEDRINHAS - SÃO LUÍS",
+                "tipo_apenado": "Definitivo",
+                "tipo_servico": "Ordinário",
+                "relato": "Lorem ipsum odio mollis convallis platea in, vitae tristique orci pellentesque fringilla cursus hendrerit, ullamcorper rhoncus sit pulvinar tellus. euismod turpis mi erat imperdiet nibh metus, neque egestas feugiat nunc pellentesque. quisque nibh fringilla orci ultricies porta rhoncus, commodo dui taciti malesuada orci bibendum, sed mattis ac diam malesuada. donec ut inceptos curabitur fermentum, porttitor urna feugiat, posuere lorem habitasse. pellentesque vitae condimentum quis hendrerit suscipit feugiat tincidunt aliquam dictumst facilisis, non commodo litora imperdiet habitant leo facilisis libero cras curae, aenean ut congue aenean proin lacinia senectus himenaeos rutrum",
+                "data_atendimento": "10/08/2022",
+                "nome_defensor": "Dr. João da Silva",
+                "nome_normal": "Mar Azul Ltda",
+                "nome_social": " ",
+                "problemas_identificados": [
+                  {
+                    "codigo_problema": 1,
+                    "codigo_forca_tarefa": 27,
+                    "descricao_problema": "Falha de comunicação a respeito do cumprimento do mandado",
+                    "fora_uso": false
+                  },
+                  {
+                    "codigo_problema": 2,
+                    "codigo_forca_tarefa": 27,
+                    "descricao_problema": "Preso condenado sem guia de recolhimento",
+                    "fora_uso": false
+                  }
+                ],
+                "providencias": [
+                  {
+                    "codigo_tipo_providencia": 1,
+                    "codigo_forca_tarefa": 27,
+                    "descricao_tipo_providencia": "Relaxamento",
+                    "fora_uso": false
+                  },
+                  {
+                    "codigo_tipo_providencia": 2,
+                    "codigo_forca_tarefa": 27,
+                    "descricao_tipo_providencia": "Revogação de preventiva,",
+                    "fora_uso": false
+                  }
+                ]
+              },
+              {
+                "codigo_forca_tarefa": 28,
+                "codigo_pessoa": 2521,
+                "unidade_prisional": "PENITENCIÁRIA DE PEDRINHAS - SÃO LUÍS 1",
+                "tipo_apenado": "Definitivo",
+                "tipo_servico": "Ordinário",
+                "relato": "teste",
+                "data_atendimento": "10/08/2022",
+                "nome_defensor": "Dr. João Carlos",
+                "nome_normal": "Mar Azul Empresas de Turísmo",
+                "nome_social": " "
+              },
+              {
+                "codigo_forca_tarefa": 29,
+                "codigo_pessoa": 1000,
+                "unidade_prisional": "PENITENCIÁRIA DE PEDRINHAS - SÃO LUÍS 2",
+                "tipo_apenado": "Definitivo",
+                "tipo_servico": "Ordinário",
+                "relato": "teste",
+                "data_atendimento": "10/08/2022",
+                "nome_defensor": "Dr. João Carlos - Defensor",
+                "nome_normal": "Marcos da Silva",
+                "nome_social": "Marcia da Silva - Social"
+              },
+              {
+                "codigo_forca_tarefa": 48,
+                "codigo_pessoa": 2520,
+                "unidade_prisional": "PENITENCIÁRIA DE PEDRINHAS - SÃO LUÍS",
+                "tipo_apenado": "Provisório",
+                "tipo_servico": "Ordinário",
+                "relato": "OPA !!!  ",
+                "data_atendimento": "11/08/2022",
+                "nome_defensor": "Dr. João Carlos - Defensor",
+                "nome_normal": "Marcos Antônio da Silva",
+                "nome_social": " ",
+                "problemas_identificados": [
+                  {
+                    "codigo_problema": 1,
+                    "codigo_forca_tarefa": 48,
+                    "descricao_problema": "Benefício vencido na execução",
+                    "fora_uso": false
+                  },
+                  {
+                    "codigo_problema": 2,
+                    "codigo_forca_tarefa": 48,
+                    "descricao_problema": "Excesso de prazo na formação de culpa",
+                    "fora_uso": false
+                  },
+                  {
+                    "codigo_problema": 3,
+                    "codigo_forca_tarefa": 48,
+                    "descricao_problema": "Falta de atendimento pela DPE",
+                    "fora_uso": false
+                  }
+                ],
+                "providencias": [
+                  {
+                    "codigo_tipo_providencia": 1,
+                    "codigo_forca_tarefa": 48,
+                    "descricao_tipo_providencia": "Liberdade provisória",
+                    "fora_uso": false
+                  },
+                  {
+                    "codigo_tipo_providencia": 2,
+                    "codigo_forca_tarefa": 48,
+                    "descricao_tipo_providencia": "Resposta à acusação",
+                    "fora_uso": false
+                  },
+                  {
+                    "codigo_tipo_providencia": 3,
+                    "codigo_forca_tarefa": 48,
+                    "descricao_tipo_providencia": "Substituição de cautelar",
+                    "fora_uso": false
+                  }
+                ]
+              }
+            ],
+            "cabecalho": {
+              "nome_relatorio": "Relatório detalhado da força tarefa",
+              "qtda_registros": 9,
+              "data_emissao": "31/08/2022 - 14:08:23",
+              "pagina": "1/2",
+              "filtros": [
+                {
+                  "chave": "Defensor",
+                  "valor": "SAJ6.DEFENSOR"
+                },
+                {
+                  "chave": "Unidade Prisional",
+                  "valor": "PENITENCIÁRIA DE PEDRINHAS - SÃO LUÍS"
+                },
+                {
+                  "chave": "Data Incial",
+                  "valor": "01/07/2022 00:00:00"
+                },
+                {
+                  "chave": "Data Final",
+                  "valor": "11/08/2022 23:59:59"
+                }
+              ]
+            }
+          }</value>
+    </data>
+    <data name="consulta2" xml:space="preserve">
+        <value>
+          {
+            "notificacoes": [
+              {
+                "numero_processo_formatado": "1920210.202939.229292",
+                "numero_notificacao": 2525,
+                "tipo_notificacao": "OCTUS",
+                "data_notificacao": "10/08/2022",
+             }
+          ],
+            "cabecalho": {
+              "nome_relatorio": "Relatório das notificações",
+              "qtda_registros": 9,
+              "data_emissao": "31/08/2022 - 14:08:23",
+              "pagina": "1/2",
+              "filtros": [
+                {
+                  "chave": "Data Incial",
+                  "valor": "01/07/2022 00:00:00"
+                },
+                {
+                  "chave": "Data Final",
+                  "valor": "11/08/2022 23:59:59"
+                }
+              ]
+            }
+          }</value>
+    </data>
+</root>
