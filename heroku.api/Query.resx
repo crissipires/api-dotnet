@@ -213,9 +213,9 @@
                 "numero_processo_formatado": "1920210.202939.229292",
                 "numero_notificacao": 2525,
                 "tipo_notificacao": "OCTUS",
-                "data_notificacao": "10/08/2022",
-             }
-          ],
+                "data_notificacao": "10/08/2022"
+              }
+            ],
             "cabecalho": {
               "nome_relatorio": "Relatório das notificações",
               "qtda_registros": 9,
@@ -232,6 +232,7 @@
                 }
               ]
             }
-          }</value>
+          }
+        </value>
     </data>
 </root>
