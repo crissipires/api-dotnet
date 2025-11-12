@@ -58,7 +58,7 @@
         }
       </value>
     </data>
-  
+
     <data name="consulta" xml:space="preserve">
         <value>{
             "detalhes": [
@@ -205,8 +205,9 @@
             }
           }</value>
     </data>
-     <data name="consulta2" xml:space="preserve">
-        <value>{
+    <data name="consulta2" xml:space="preserve">
+        <value>
+          {
             "notificacoes": [
               {
                 "numero_processo_formatado": "1920210.202939.229292",
